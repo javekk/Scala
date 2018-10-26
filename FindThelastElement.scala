@@ -10,10 +10,10 @@ object FindTheLastElement {
     //  We could simply use the builtin.....
     //  def last[A](ls: List[A]): A = ls.last
 
-    //  But we are better and we try with functional approch....
+    //  But we are better and we try with functional approach....
     def lastRecursive[A](ls: List[A]): A = ls match {
 
-        // case Nil => throw new NoSuchElementException // don't fail with nil
+        case Nil => throw new NoSuchElementException // don't fail with nil
         case h :: Nil  => h
         case _ :: tail => lastRecursive(tail)
     }
