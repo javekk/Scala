@@ -1,7 +1,5 @@
 /** 
- * Scala supports actors, 
- * in this example we create 5 actor
- * and than we send 5000 votes(Yes|No) to each of them
+ * Find the last element in a list
  *
  * Compile  $ scalac FindThelastElement.scala
  * Run      $ scala  FindThelastElement
